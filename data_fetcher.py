@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 max_retries=2
 client_id = '1100467218'
-access_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzcxMDQwODU5LCJpYXQiOjE3NzA5NTQ0NTksInRva2VuQ29uc3VtZXJUeXBlIjoiU0VMRiIsIndlYmhvb2tVcmwiOiIiLCJkaGFuQ2xpZW50SWQiOiIxMTAwNDY3MjE4In0.Up8fz6eFAo2-8ocTFhYNlYTIvnku7os2H2YInUskOy58lw2pHjq9uXb00303nj152COixDLfAI-ypmu2LQRhkw'
+access_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzcxMjU5MzczLCJpYXQiOjE3NzExNzI5NzMsInRva2VuQ29uc3VtZXJUeXBlIjoiU0VMRiIsIndlYmhvb2tVcmwiOiIiLCJkaGFuQ2xpZW50SWQiOiIxMTAwNDY3MjE4In0.SRoHGEzUtri_cvycrZY2ht-z_IRdaLZjmKb4iwMLcg-X-GVqDP_ItEPoCO3g0GHhLyFuMSjEpf29JPDiVJAozQ'
 # dhan = dhanhq(client_id, access_token)
 stock_data = pd.read_csv('updated_list.csv')
 def get_security_id(symbol: str) -> int:
